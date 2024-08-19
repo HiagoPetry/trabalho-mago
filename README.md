@@ -2,4 +2,4 @@
  landing page MagôBrows
 
 
-<a href="[text]landingpagemagobrows/index.html">link magobrows</a> 
+<a href="landingpagemagobrows/index.html">link magobrows</a> 
