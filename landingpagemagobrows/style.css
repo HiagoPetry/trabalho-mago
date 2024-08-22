@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(to bottom, #2E2D2C, #405751, #DCD6D3) ;
+    font: normal 20pt Arial;
+    color: #DCD6D3;
+    h1{color: #DCD6D3;}
+}
+
 body{
     display: flex;
     justify-content: center;
