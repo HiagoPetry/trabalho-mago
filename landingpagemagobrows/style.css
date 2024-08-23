@@ -1,35 +1,110 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color0: #DCD6D3;
+    --color1: #405751;
+    --color2: #2E2D2C;
+    --color3: #B88BB2;
+
+    --font-family: "Jura", sans-serif;
+    --font-family: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-image: linear-gradient(to bottom, #2E2D2C, #405751, #DCD6D3) ;
-    font: normal 20pt Arial;
-    color: #DCD6D3;
-    h1{color: #DCD6D3;}
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url('../landingpagemagobrows/imagens/WhatsApp\ Image\ 2024-08-22\ at\ 22.37.22.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+
 }
 
-body{
-    display: flex;
+header {
+    background-color: rgba(211, 211, 211, 0.452);
+    height: 800px;
+    width: 1000px;
+    top: 200px;
+    margin: auto;
+}
+
+header.logo > img {
+    margin: auto;
+}
+
+header > section {
+    background-color: black;
+    background-image: url('../landingpagemagobrows/imagens/WhatsApp\ Image\ 2024-08-22\ at\ 22.53.56.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    transform: translate(30%, 5%);
+
+}
+
+div.agendamento {
+   padding-left: 150px;
+   margin-bottom: 100px;
+   color: white;
+   
+}
+
+div.habilidades {
+    color: white;
+    padding-left: 70px;
+}
+
+div.serviços {
+    background-color: transparent;
+    color: white;
+    line-height: 5em;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+article > h1 {
+    color: white;
+    padding-top: 100px;
+    padding-left: 300px;
+    font-size: xx-large;
+}
+
+ .box {
+    background-color: black;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #262626;
-
 }
 
-.mapBox {
-    position: relative;
-    width: 600px;
-    heigth: 500px;
-    background: #fff;
-
+section > div > img {
+    max-width: 100%;
 }
 
-.mapBox iframe {
-    width : 100%;
-    reigth: 100%;
 
+
+
+section.cursos > #conteudo >  h2 {
+    color: white;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+section.cursos > #conteudo > h3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: -80px;
 }
