@@ -74,6 +74,69 @@ div.serviços {
     margin-right: 50px;
 }
 
+div#nanoblanding {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#shadow {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#labios {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#olhos {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#cilios {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#design {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#browlamination {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#laser {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div#cursos {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+div.serviços div > p {
+    display: none;
+}
+
+div.serviços div:hover > p {
+    display: block;
+    transition-duration: 2s;
+}
+
 article > h1 {
     color: white;
     padding-top: 100px;
@@ -93,9 +156,6 @@ article > h1 {
 section > div > img {
     max-width: 100%;
 }
-
-
-
 
 section.cursos > #conteudo >  h2 {
     color: white;
