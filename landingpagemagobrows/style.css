@@ -36,6 +36,8 @@ header {
     width: 1000px;
     top: 200px;
     margin: auto;
+    height: 100vh;
+    width: 100vw;
 }
 
 header.logo > img {
@@ -155,16 +157,38 @@ article > h1 {
 
 section > div > img {
     max-width: 100%;
+    display: inline-flex;
+}
+
+section.cursos {
+    background-color:  rgba(211, 211, 211, 0.452);
+
 }
 
 section.cursos > #conteudo >  h2 {
-    color: white;
+    color: white;;
     padding-top: 100px;
     margin-left: 50px;
+    margin-bottom: 50px;
 }
 
-section.cursos > #conteudo > h3 {
+section.cursos > #conteudo > h3  {
     color: white;
+    padding-bottom:10%;
     margin-left: 50px;
-    margin-top: -80px;
+    margin-top: -150px;
+    text-decoration: none;
 }
+
+
+
+section.cursos > #conteudo > img {
+   padding-left: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    max-height:1000px ;
+    min-height: 300px;
+    min-width: 300px;
+    max-width:1000px;
+}
+
