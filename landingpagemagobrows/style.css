@@ -60,7 +60,17 @@ div.agendamento {
    padding-left: 150px;
    margin-bottom: 100px;
    color: white;
-   
+}
+
+div.agendamento > p > a {
+    text-decoration-line: none;
+    color: white;
+}
+
+div.agendamento > p > a:hover {
+    background-color: var(--color0);
+    color: black;
+    padding: 10px;
 }
 
 div.habilidades {
@@ -172,23 +182,56 @@ section.cursos > #conteudo >  h2 {
     margin-bottom: 50px;
 }
 
-section.cursos > #conteudo > h3  {
+section.cursos > #conteudo > h3 {
     color: white;
-    padding-bottom:10%;
+    padding-bottom:10px;
     margin-left: 50px;
     margin-top: -150px;
     text-decoration: none;
 }
 
+section.cursos > #conteudo > a {
+    color: white;
+    padding-bottom:10px;
+    margin-left: 50px;
+    margin-top: -150px;
+    text-decoration: none;
+}
+
+section.cursos > #conteudo > a:hover {
+    color: red;
+}
+
 
 
 section.cursos > #conteudo > img {
-   padding-left: 30px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    max-height:1000px ;
-    min-height: 300px;
-    min-width: 300px;
-    max-width:1000px;
+    padding: 10px;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 100px;
+   border-radius: 20px;
 }
 
+section.localização h2 {
+    font-family: var(--font-family);
+    font-size: 2em;
+    text-shadow: 2px 2px solid rgba(0, 0, 0, 0.779);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#waze {
+    display: block;
+    margin: auto;
+    margin-left: 15vw;
+    padding-bottom: 50px;
+}
+
+div#maps {
+    display: block;
+    margin: auto;
+    margin-left: 15vw;
+}
